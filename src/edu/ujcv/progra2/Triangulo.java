@@ -14,4 +14,17 @@ public class Triangulo extends Shape{
         System.out.println("p2 : x." + p2.getX() + " y." + p2.getY());
         System.out.println("p3 : x." + p3.getX() + " y." + p3.getY());
     }
+
+    @Override
+    public void shortDescription() {
+        describeTriangulo();
+    }
+
+    @Override
+    public void describeShape(){
+        System.out.println("un triangulo sin hacer ifsss");
+        System.out.println("p1 : x." + p1.getX() + " y." + p1.getY());
+        System.out.println("p2 : x." + p2.getX() + " y." + p2.getY());
+        System.out.println("p3 : x." + p3.getX() + " y." + p3.getY());
+    }
 }

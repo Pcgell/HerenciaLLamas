@@ -1,6 +1,6 @@
 package edu.ujcv.progra2;
 
-public class Shape {
+public abstract class Shape {
 
 
     public void describeShape(){
@@ -15,4 +15,6 @@ public class Shape {
         }
 
     }
+
+    public abstract  void shortDescription();
 }

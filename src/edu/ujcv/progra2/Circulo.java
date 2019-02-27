@@ -1,6 +1,6 @@
 package edu.ujcv.progra2;
 
-public class Circulo extends Shape {
+public final class Circulo extends Shape {
 
     private Point centro;
     private Double radio;
@@ -33,4 +33,13 @@ public class Circulo extends Shape {
         System.out.println("centro: x." + centro.getX() + " y." + centro.getY());
         System.out.println("radio: "+ radio);
     }
+
+    @Override
+    public void shortDescription() {
+        System.out.println(toString());
+    }
+
+    //public String toString(){
+      //return "circulo: " + "centro: x." + centro.getX() + " y." + centro.getY()+ " radio: "+ radio;
+    //}
 }
